@@ -1,18 +1,21 @@
 ﻿Module Module1
 
     Sub Main()
-        Const MYMESSAGE As String = "I heart Computer Science!"
+        Const MYMESSAGE As String = "I Love Playing King glory"
 
-        Dim Var14b13 As String = "Weird var name"
+        Dim strMyName As String = "Gavin Tse"
 
-        Dim StudentAge As Integer = 16
-        Dim intStudenAge As Integer = 17
+        Dim MyAge As Integer = 15
+        Dim intMyAge As Integer = 16
+        Dim dblVal As Integer = 4.567
 
-        Console.WriteLine(StudentAge)
-        Console.WriteLine(intStudenAge)
+        Console.WriteLine(MyAge)
+        Console.WriteLine(intMyAge)
+        Console.WriteLine(dblVal & vbNewLine)
+
         Console.WriteLine(MYMESSAGE)
 
-        Console.WriteLine(Var14b13)
+        Console.WriteLine(strMyName)
 
         Console.ReadLine()
 
